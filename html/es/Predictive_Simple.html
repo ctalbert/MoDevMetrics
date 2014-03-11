@@ -31,7 +31,7 @@
 
 
 	<div style="float:right;display: inline;">
-		<a href="http://people.mozilla.com/~klahnakoski/" class="button">HOME</a>
+		<a href="http://people.mozilla.com/~ctalbert/dashboards/index.html" class="button">HOME</a>
 	</div>
 
 <div style="align:left;position:relative;float:left;width:800px;">
@@ -79,7 +79,7 @@ var __createChart = function(){
 	if (title && title.length>0){
 		$("#title").html(title);
 	}else{
-		$("#title").html("Burndown Prediction using Linear Estimation for "+GUI.state.programFilter.selected.join(", ")+"");
+		$("#title").html("Burndown Prediction using Linear Estimation for open bugs in "+GUI.state.programFilter.selected.join(", ")+"");
 	}//endif
 
 	var createTime = "doc[\"create_time\"].value";
